@@ -6,7 +6,10 @@
     "DOORS",
     "DXL"
   ],
-  "repository": "https://github.com/atom/language-dxl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taggandrew/atom-language-dxl"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
