@@ -1,0 +1,5 @@
+".source.inc, .source.dxl, .source.adxl, .source.ldxl, .source.tdxl":
+  editor:
+    increaseIndentPattern: "^.*\\{[^}\\\"']*$"
+    decreaseIndentPattern: "^(.*\\*/)?\\s*\\}[;\\s]*$"
+    commentStart: "// "

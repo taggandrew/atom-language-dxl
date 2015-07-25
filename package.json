@@ -1,0 +1,16 @@
+{
+  "name": "language-dxl",
+  "version": "0.0.0",
+  "description": "A language description and snippets for DOORS DXL",
+  "keywords": [
+    "DOORS",
+    "DXL"
+  ],
+  "repository": "https://github.com/atom/language-dxl",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
