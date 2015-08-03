@@ -2,9 +2,11 @@
   "#include <…>":
     prefix: "include"
     body: "include <${1:.inc}>"
+
   "#include \"…\"":
     prefix: "include"
     body: "include \"$1\""
+
   "While Loop":
     prefix: "while"
     body: '''
@@ -13,6 +15,7 @@
       	${0:/* code */}
       }
     '''
+
   "For Loop":
     prefix: "for"
     body: '''
@@ -22,6 +25,17 @@
       	${6:/* code */}
       }
     '''
+
+  "For obj in mod do":
+    prefix: "for "
+    body: '''
+      ${5:Object ${1:hObject} = null}
+      for ${1:hObject} in ${3:/*hModule*/} do
+      {
+      	${6:/* code */}
+      }
+    '''
+
   "If Condition":
     prefix: "if"
     body: '''
