@@ -1,3 +1,4 @@
-## 0.1.0 - First Release
+## 0.1.1 - Second Release
 * Every feature added
+Added 'for object in module do' snippet
 * Every bug fixed
