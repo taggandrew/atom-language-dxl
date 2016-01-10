@@ -1363,7 +1363,7 @@ repository:
             name: "invalid.illegal.keyword.dxl"
           "3":
             name: "variable.dxl"
-        match: ",\\s+([\\*&])?(?:(case|default|enum|switch|union)|([a-zA-Z_][a-zA-Z_0-9]*))\\s*(?=$|[,;=\\n\\[]|//|/\\*)"
+        match: ",\\s+([\\*&])?(?:(case|default|enum|switch|union)|([a-zA-Z_][a-zA-Z_0-9]*))[ \\t]*(?=$|[,;=\\n\\[]|//|/\\*)"
         name: "declaration.variable.another.dxl"
       }
     ]
