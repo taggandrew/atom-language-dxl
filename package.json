@@ -1,6 +1,6 @@
 {
   "name": "language-dxl",
-  "version": "0.2.1",
+  "version": "0.2.0",
   "description": "A language description and snippets for DOORS DXL",
   "keywords": [
     "DOORS",
@@ -14,5 +14,25 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "readme": "# language-dxl package\n\nA language package for DOORS DXL.\n\nOriginally imported from https://github.com/Adarma/DXL.\n\n## Copyright\n\nLicense: MIT\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/taggandrew/atom-language-dxl/issues"
+  },
+  "homepage": "https://github.com/taggandrew/atom-language-dxl",
+  "_id": "language-dxl@0.2.0",
+  "_shasum": "40ea721ee06031a1c055ee95daef17786c7b4b98",
+  "_resolved": "file:../d-11573-11639-17hkxvd/package.tgz",
+  "_from": "../d-11573-11639-17hkxvd/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
 }
